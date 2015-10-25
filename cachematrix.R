@@ -3,7 +3,8 @@
 ## based on two functions (makeCacheMatrix() and cacheSolve())
 
 
-## function makeCacheMatrix()
+## function makeCacheMatrix() creates a special matrix
+## with a cached inverse version 
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
